@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F88D1161C7A96490009F5EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1151C7A96490009F5EA /* AppDelegate.swift */; };
+		1F88D1181C7A96490009F5EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1171C7A96490009F5EA /* ViewController.swift */; };
+		1F88D11B1C7A96490009F5EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D1191C7A96490009F5EA /* Main.storyboard */; };
+		1F88D11D1C7A964A0009F5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D11C1C7A964A0009F5EA /* Assets.xcassets */; };
+		1F88D1201C7A964A0009F5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D11E1C7A964A0009F5EA /* LaunchScreen.storyboard */; };
+		1F88D12B1C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D12A1C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.swift */; };
+		1F88D1361C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1351C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.swift */; };
+		1F88D13B1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F88D13A1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App.app */; };
+		1F88D1411C7A964A0009F5EA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D13F1C7A964A0009F5EA /* Interface.storyboard */; };
+		1F88D1431C7A964A0009F5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D1421C7A964A0009F5EA /* Assets.xcassets */; };
+		1F88D14A1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F88D1491C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F88D1511C7A964A0009F5EA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1501C7A964A0009F5EA /* InterfaceController.swift */; };
+		1F88D1531C7A964A0009F5EA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1521C7A964A0009F5EA /* ExtensionDelegate.swift */; };
+		1F88D1551C7A964A0009F5EA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1541C7A964A0009F5EA /* NotificationController.swift */; };
+		1F88D1571C7A964A0009F5EA /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1561C7A964A0009F5EA /* GlanceController.swift */; };
+		1F88D1591C7A964A0009F5EA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1581C7A964A0009F5EA /* ComplicationController.swift */; };
+		1F88D15B1C7A964A0009F5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D15A1C7A964A0009F5EA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F88D1271C7A964A0009F5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F88D10A1C7A96490009F5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F88D1111C7A96490009F5EA;
+			remoteInfo = CarthageiOSWatchOSApp;
+		};
+		1F88D1321C7A964A0009F5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F88D10A1C7A96490009F5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F88D1111C7A96490009F5EA;
+			remoteInfo = CarthageiOSWatchOSApp;
+		};
+		1F88D13C1C7A964A0009F5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F88D10A1C7A96490009F5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F88D1391C7A964A0009F5EA;
+			remoteInfo = "CarthageiOSWatchOSApp WatchKit App";
+		};
+		1F88D14B1C7A964A0009F5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F88D10A1C7A96490009F5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F88D1481C7A964A0009F5EA;
+			remoteInfo = "CarthageiOSWatchOSApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F88D1621C7A964A0009F5EA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F88D14A1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1661C7A964A0009F5EA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F88D13B1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F88D1121C7A96490009F5EA /* CarthageiOSWatchOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageiOSWatchOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F88D1151C7A96490009F5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F88D1171C7A96490009F5EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F88D11A1C7A96490009F5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F88D11C1C7A964A0009F5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F88D11F1C7A964A0009F5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F88D1211C7A964A0009F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F88D1261C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageiOSWatchOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F88D12A1C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageiOSWatchOSAppTests.swift; sourceTree = "<group>"; };
+		1F88D12C1C7A964A0009F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F88D1311C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageiOSWatchOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F88D1351C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageiOSWatchOSAppUITests.swift; sourceTree = "<group>"; };
+		1F88D1371C7A964A0009F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F88D13A1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarthageiOSWatchOSApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F88D1401C7A964A0009F5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1F88D1421C7A964A0009F5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F88D1441C7A964A0009F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F88D1491C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CarthageiOSWatchOSApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F88D14F1C7A964A0009F5EA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1F88D1501C7A964A0009F5EA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1F88D1521C7A964A0009F5EA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1F88D1541C7A964A0009F5EA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1F88D1561C7A964A0009F5EA /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		1F88D1581C7A964A0009F5EA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1F88D15A1C7A964A0009F5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F88D15C1C7A964A0009F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F88D10F1C7A96490009F5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1231C7A964A0009F5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D12E1C7A964A0009F5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1461C7A964A0009F5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F88D1091C7A96490009F5EA = {
+			isa = PBXGroup;
+			children = (
+				1F88D1141C7A96490009F5EA /* CarthageiOSWatchOSApp */,
+				1F88D1291C7A964A0009F5EA /* CarthageiOSWatchOSAppTests */,
+				1F88D1341C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests */,
+				1F88D13E1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App */,
+				1F88D14D1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension */,
+				1F88D1131C7A96490009F5EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F88D1131C7A96490009F5EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D1121C7A96490009F5EA /* CarthageiOSWatchOSApp.app */,
+				1F88D1261C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.xctest */,
+				1F88D1311C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.xctest */,
+				1F88D13A1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App.app */,
+				1F88D1491C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F88D1141C7A96490009F5EA /* CarthageiOSWatchOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D1151C7A96490009F5EA /* AppDelegate.swift */,
+				1F88D1171C7A96490009F5EA /* ViewController.swift */,
+				1F88D1191C7A96490009F5EA /* Main.storyboard */,
+				1F88D11C1C7A964A0009F5EA /* Assets.xcassets */,
+				1F88D11E1C7A964A0009F5EA /* LaunchScreen.storyboard */,
+				1F88D1211C7A964A0009F5EA /* Info.plist */,
+			);
+			path = CarthageiOSWatchOSApp;
+			sourceTree = "<group>";
+		};
+		1F88D1291C7A964A0009F5EA /* CarthageiOSWatchOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D12A1C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.swift */,
+				1F88D12C1C7A964A0009F5EA /* Info.plist */,
+			);
+			path = CarthageiOSWatchOSAppTests;
+			sourceTree = "<group>";
+		};
+		1F88D1341C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D1351C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.swift */,
+				1F88D1371C7A964A0009F5EA /* Info.plist */,
+			);
+			path = CarthageiOSWatchOSAppUITests;
+			sourceTree = "<group>";
+		};
+		1F88D13E1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D13F1C7A964A0009F5EA /* Interface.storyboard */,
+				1F88D1421C7A964A0009F5EA /* Assets.xcassets */,
+				1F88D1441C7A964A0009F5EA /* Info.plist */,
+			);
+			path = "CarthageiOSWatchOSApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		1F88D14D1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D1501C7A964A0009F5EA /* InterfaceController.swift */,
+				1F88D1521C7A964A0009F5EA /* ExtensionDelegate.swift */,
+				1F88D1541C7A964A0009F5EA /* NotificationController.swift */,
+				1F88D1561C7A964A0009F5EA /* GlanceController.swift */,
+				1F88D1581C7A964A0009F5EA /* ComplicationController.swift */,
+				1F88D15A1C7A964A0009F5EA /* Assets.xcassets */,
+				1F88D15C1C7A964A0009F5EA /* Info.plist */,
+				1F88D14E1C7A964A0009F5EA /* Supporting Files */,
+			);
+			path = "CarthageiOSWatchOSApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1F88D14E1C7A964A0009F5EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D14F1C7A964A0009F5EA /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F88D1111C7A96490009F5EA /* CarthageiOSWatchOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F88D1671C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp" */;
+			buildPhases = (
+				1F88D10E1C7A96490009F5EA /* Sources */,
+				1F88D10F1C7A96490009F5EA /* Frameworks */,
+				1F88D1101C7A96490009F5EA /* Resources */,
+				1F88D1661C7A964A0009F5EA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F88D13D1C7A964A0009F5EA /* PBXTargetDependency */,
+			);
+			name = CarthageiOSWatchOSApp;
+			productName = CarthageiOSWatchOSApp;
+			productReference = 1F88D1121C7A96490009F5EA /* CarthageiOSWatchOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F88D1251C7A964A0009F5EA /* CarthageiOSWatchOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F88D16A1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSAppTests" */;
+			buildPhases = (
+				1F88D1221C7A964A0009F5EA /* Sources */,
+				1F88D1231C7A964A0009F5EA /* Frameworks */,
+				1F88D1241C7A964A0009F5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F88D1281C7A964A0009F5EA /* PBXTargetDependency */,
+			);
+			name = CarthageiOSWatchOSAppTests;
+			productName = CarthageiOSWatchOSAppTests;
+			productReference = 1F88D1261C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F88D1301C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F88D16D1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSAppUITests" */;
+			buildPhases = (
+				1F88D12D1C7A964A0009F5EA /* Sources */,
+				1F88D12E1C7A964A0009F5EA /* Frameworks */,
+				1F88D12F1C7A964A0009F5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F88D1331C7A964A0009F5EA /* PBXTargetDependency */,
+			);
+			name = CarthageiOSWatchOSAppUITests;
+			productName = CarthageiOSWatchOSAppUITests;
+			productReference = 1F88D1311C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1F88D1391C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F88D1631C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp WatchKit App" */;
+			buildPhases = (
+				1F88D1381C7A964A0009F5EA /* Resources */,
+				1F88D1621C7A964A0009F5EA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F88D14C1C7A964A0009F5EA /* PBXTargetDependency */,
+			);
+			name = "CarthageiOSWatchOSApp WatchKit App";
+			productName = "CarthageiOSWatchOSApp WatchKit App";
+			productReference = 1F88D13A1C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1F88D1481C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F88D15F1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp WatchKit Extension" */;
+			buildPhases = (
+				1F88D1451C7A964A0009F5EA /* Sources */,
+				1F88D1461C7A964A0009F5EA /* Frameworks */,
+				1F88D1471C7A964A0009F5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarthageiOSWatchOSApp WatchKit Extension";
+			productName = "CarthageiOSWatchOSApp WatchKit Extension";
+			productReference = 1F88D1491C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F88D10A1C7A96490009F5EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeff Hui";
+				TargetAttributes = {
+					1F88D1111C7A96490009F5EA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1F88D1251C7A964A0009F5EA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1F88D1111C7A96490009F5EA;
+					};
+					1F88D1301C7A964A0009F5EA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1F88D1111C7A96490009F5EA;
+					};
+					1F88D1391C7A964A0009F5EA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1F88D1481C7A964A0009F5EA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F88D10D1C7A96490009F5EA /* Build configuration list for PBXProject "CarthageiOSWatchOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F88D1091C7A96490009F5EA;
+			productRefGroup = 1F88D1131C7A96490009F5EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F88D1111C7A96490009F5EA /* CarthageiOSWatchOSApp */,
+				1F88D1251C7A964A0009F5EA /* CarthageiOSWatchOSAppTests */,
+				1F88D1301C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests */,
+				1F88D1391C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App */,
+				1F88D1481C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F88D1101C7A96490009F5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D1201C7A964A0009F5EA /* LaunchScreen.storyboard in Resources */,
+				1F88D11D1C7A964A0009F5EA /* Assets.xcassets in Resources */,
+				1F88D11B1C7A96490009F5EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1241C7A964A0009F5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D12F1C7A964A0009F5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1381C7A964A0009F5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D1431C7A964A0009F5EA /* Assets.xcassets in Resources */,
+				1F88D1411C7A964A0009F5EA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1471C7A964A0009F5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D15B1C7A964A0009F5EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F88D10E1C7A96490009F5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D1181C7A96490009F5EA /* ViewController.swift in Sources */,
+				1F88D1161C7A96490009F5EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1221C7A964A0009F5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D12B1C7A964A0009F5EA /* CarthageiOSWatchOSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D12D1C7A964A0009F5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D1361C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F88D1451C7A964A0009F5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F88D1551C7A964A0009F5EA /* NotificationController.swift in Sources */,
+				1F88D1531C7A964A0009F5EA /* ExtensionDelegate.swift in Sources */,
+				1F88D1591C7A964A0009F5EA /* ComplicationController.swift in Sources */,
+				1F88D1511C7A964A0009F5EA /* InterfaceController.swift in Sources */,
+				1F88D1571C7A964A0009F5EA /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F88D1281C7A964A0009F5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F88D1111C7A96490009F5EA /* CarthageiOSWatchOSApp */;
+			targetProxy = 1F88D1271C7A964A0009F5EA /* PBXContainerItemProxy */;
+		};
+		1F88D1331C7A964A0009F5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F88D1111C7A96490009F5EA /* CarthageiOSWatchOSApp */;
+			targetProxy = 1F88D1321C7A964A0009F5EA /* PBXContainerItemProxy */;
+		};
+		1F88D13D1C7A964A0009F5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F88D1391C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit App */;
+			targetProxy = 1F88D13C1C7A964A0009F5EA /* PBXContainerItemProxy */;
+		};
+		1F88D14C1C7A964A0009F5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F88D1481C7A964A0009F5EA /* CarthageiOSWatchOSApp WatchKit Extension */;
+			targetProxy = 1F88D14B1C7A964A0009F5EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F88D1191C7A96490009F5EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F88D11A1C7A96490009F5EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F88D11E1C7A964A0009F5EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F88D11F1C7A964A0009F5EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F88D13F1C7A964A0009F5EA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F88D1401C7A964A0009F5EA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F88D15D1C7A964A0009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F88D15E1C7A964A0009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F88D1601C7A964A0009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "CarthageiOSWatchOSApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1F88D1611C7A964A0009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "CarthageiOSWatchOSApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1F88D1641C7A964A0009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CarthageiOSWatchOSApp_WatchKit_Extension;
+				INFOPLIST_FILE = "CarthageiOSWatchOSApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1F88D1651C7A964A0009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CarthageiOSWatchOSApp_WatchKit_Extension;
+				INFOPLIST_FILE = "CarthageiOSWatchOSApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1F88D1681C7A964A0009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarthageiOSWatchOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F88D1691C7A964A0009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarthageiOSWatchOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F88D16B1C7A964A0009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarthageiOSWatchOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageiOSWatchOSApp.app/CarthageiOSWatchOSApp";
+			};
+			name = Debug;
+		};
+		1F88D16C1C7A964A0009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarthageiOSWatchOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageiOSWatchOSApp.app/CarthageiOSWatchOSApp";
+			};
+			name = Release;
+		};
+		1F88D16E1C7A964A0009F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarthageiOSWatchOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarthageiOSWatchOSApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F88D16F1C7A964A0009F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarthageiOSWatchOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarthageiOSWatchOSApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F88D10D1C7A96490009F5EA /* Build configuration list for PBXProject "CarthageiOSWatchOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D15D1C7A964A0009F5EA /* Debug */,
+				1F88D15E1C7A964A0009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F88D15F1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D1601C7A964A0009F5EA /* Debug */,
+				1F88D1611C7A964A0009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F88D1631C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D1641C7A964A0009F5EA /* Debug */,
+				1F88D1651C7A964A0009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F88D1671C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D1681C7A964A0009F5EA /* Debug */,
+				1F88D1691C7A964A0009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F88D16A1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D16B1C7A964A0009F5EA /* Debug */,
+				1F88D16C1C7A964A0009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F88D16D1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F88D16E1C7A964A0009F5EA /* Debug */,
+				1F88D16F1C7A964A0009F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F88D10A1C7A96490009F5EA /* Project object */;
+}
