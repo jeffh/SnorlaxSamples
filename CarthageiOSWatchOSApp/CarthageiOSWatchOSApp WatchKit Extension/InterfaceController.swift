@@ -8,14 +8,15 @@
 
 import WatchKit
 import Foundation
+import Snorlax
 
 
 class InterfaceController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
-        // Configure interface objects here.
+
+        rest()
     }
 
     override func willActivate() {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1904151C7D918E00DA71F1 /* Snorlax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1904131C7D918B00DA71F1 /* Snorlax.framework */; };
+		1F1904181C7D923000DA71F1 /* Snorlax.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F1904131C7D918B00DA71F1 /* Snorlax.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F88D1161C7A96490009F5EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1151C7A96490009F5EA /* AppDelegate.swift */; };
 		1F88D1181C7A96490009F5EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1171C7A96490009F5EA /* ViewController.swift */; };
 		1F88D11B1C7A96490009F5EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D1191C7A96490009F5EA /* Main.storyboard */; };
@@ -24,6 +26,7 @@
 		1F88D1571C7A964A0009F5EA /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1561C7A964A0009F5EA /* GlanceController.swift */; };
 		1F88D1591C7A964A0009F5EA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88D1581C7A964A0009F5EA /* ComplicationController.swift */; };
 		1F88D15B1C7A964A0009F5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88D15A1C7A964A0009F5EA /* Assets.xcassets */; };
+		1F88D1761C7A97DD0009F5EA /* Snorlax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F88D1731C7A97DD0009F5EA /* Snorlax.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1F1904171C7D922B00DA71F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F1904181C7D923000DA71F1 /* Snorlax.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F88D1621C7A964A0009F5EA /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,9 +93,19 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F88D17D1C7A98AE0009F5EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F1904131C7D918B00DA71F1 /* Snorlax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Snorlax.framework; path = Carthage/Build/watchOS/Snorlax.framework; sourceTree = "<group>"; };
 		1F88D1121C7A96490009F5EA /* CarthageiOSWatchOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageiOSWatchOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F88D1151C7A96490009F5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F88D1171C7A96490009F5EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +132,7 @@
 		1F88D1581C7A964A0009F5EA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		1F88D15A1C7A964A0009F5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F88D15C1C7A964A0009F5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F88D1731C7A97DD0009F5EA /* Snorlax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Snorlax.framework; path = Carthage/Build/iOS/Snorlax.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F88D1761C7A97DD0009F5EA /* Snorlax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,15 +162,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1904151C7D918E00DA71F1 /* Snorlax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F19040E1C7D914F00DA71F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D1731C7A97DD0009F5EA /* Snorlax.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1F19040F1C7D915400DA71F1 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F1904131C7D918B00DA71F1 /* Snorlax.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
 		1F88D1091C7A96490009F5EA = {
 			isa = PBXGroup;
 			children = (
+				1F88D1701C7A971B0009F5EA /* Dependencies */,
 				1F88D1141C7A96490009F5EA /* CarthageiOSWatchOSApp */,
 				1F88D1291C7A964A0009F5EA /* CarthageiOSWatchOSAppTests */,
 				1F88D1341C7A964A0009F5EA /* CarthageiOSWatchOSAppUITests */,
@@ -231,6 +274,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1F88D1701C7A971B0009F5EA /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1F19040F1C7D915400DA71F1 /* watchOS */,
+				1F19040E1C7D914F00DA71F1 /* iOS */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +294,8 @@
 				1F88D10F1C7A96490009F5EA /* Frameworks */,
 				1F88D1101C7A96490009F5EA /* Resources */,
 				1F88D1661C7A964A0009F5EA /* Embed Watch Content */,
+				1F88D17D1C7A98AE0009F5EA /* CopyFiles */,
+				1F88D17E1C7A98B50009F5EA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -313,6 +367,7 @@
 				1F88D1451C7A964A0009F5EA /* Sources */,
 				1F88D1461C7A964A0009F5EA /* Frameworks */,
 				1F88D1471C7A964A0009F5EA /* Resources */,
+				1F1904171C7D922B00DA71F1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -417,6 +472,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F88D17E1C7A98B50009F5EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F88D10E1C7A96490009F5EA /* Sources */ = {
@@ -594,6 +665,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = "CarthageiOSWatchOSApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp.watchkitapp.watchkitextension;
@@ -609,6 +684,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = "CarthageiOSWatchOSApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp.watchkitapp.watchkitextension;
@@ -656,6 +735,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = CarthageiOSWatchOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp;
@@ -667,6 +752,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = CarthageiOSWatchOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSApp;
@@ -678,6 +769,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CarthageiOSWatchOSAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSAppTests;
@@ -690,6 +785,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CarthageiOSWatchOSAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.CarthageiOSWatchOSAppTests;
@@ -741,6 +840,7 @@
 				1F88D1611C7A964A0009F5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F88D1631C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +849,7 @@
 				1F88D1651C7A964A0009F5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F88D1671C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSApp" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +858,7 @@
 				1F88D1691C7A964A0009F5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F88D16A1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +867,7 @@
 				1F88D16C1C7A964A0009F5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F88D16D1C7A964A0009F5EA /* Build configuration list for PBXNativeTarget "CarthageiOSWatchOSAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -773,6 +876,7 @@
 				1F88D16F1C7A964A0009F5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
