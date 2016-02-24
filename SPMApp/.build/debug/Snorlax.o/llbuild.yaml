@@ -1,0 +1,49 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Snorlax>, <SnorlaxTests>]
+  Snorlax: [<Snorlax>]
+  SnorlaxTests: [<SnorlaxTests>]
+
+commands:
+  <Snorlax-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/Snorlax/Snorlax.swift"]
+    outputs: ["<Snorlax-swiftc>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.swiftmodule","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/Snorlax/Snorlax.swift.o"]
+    module-name: "Snorlax"
+    module-output-path: "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.swiftmodule"
+    is-library: true
+    sources: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/Snorlax/Snorlax.swift"]
+    objects: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/Snorlax/Snorlax.swift.o"]
+    import-paths: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug"]
+    temps-path: "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Snorlax"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <Snorlax>:
+    tool: shell
+    inputs: ["<Snorlax-swiftc>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/Snorlax/Snorlax.swift.o"]
+    outputs: ["<Snorlax>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.a'; ar cr '/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.a' '/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/Snorlax/Snorlax.swift.o'"]
+    description: "Linking Library:  .build/debug/Snorlax.a"
+  <SnorlaxTests-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["<Snorlax>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/SnorlaxTests/main.swift","/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/SnorlaxTests/SnorlaxTests.swift"]
+    outputs: ["<SnorlaxTests-swiftc>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/SnorlaxTests.swiftmodule","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/main.swift.o","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/SnorlaxTests.swift.o"]
+    module-name: "SnorlaxTests"
+    module-output-path: "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/SnorlaxTests.swiftmodule"
+    is-library: false
+    sources: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/SnorlaxTests/main.swift","/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/SnorlaxTests/SnorlaxTests.swift"]
+    objects: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/main.swift.o","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/SnorlaxTests.swift.o"]
+    import-paths: ["/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug"]
+    temps-path: "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/SnorlaxTests"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <SnorlaxTests>:
+    tool: shell
+    inputs: ["<SnorlaxTests-swiftc>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/main.swift.o","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/SnorlaxTests.swift.o"]
+    outputs: ["<SnorlaxTests>","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/SnorlaxTests"]
+    args: ["/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a.xctoolchain/usr/bin/swiftc","-o","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/SnorlaxTests","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/main.swift.o","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/SnorlaxTests/SnorlaxTests.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.a","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/SnorlaxTests"

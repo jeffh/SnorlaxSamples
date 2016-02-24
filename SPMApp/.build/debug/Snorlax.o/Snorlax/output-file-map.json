@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Snorlax/master.swiftdeps"
+  },
+  "/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/Snorlax/Snorlax.swift": {
+    "dependencies": "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Snorlax/Snorlax.d",
+    "object": "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Sources/Snorlax/Snorlax.swift.o",
+    "swiftmodule": "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Snorlax/Snorlax~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeff/workspace/SnorlaxSamples/SPMApp/.build/debug/Snorlax.o/Snorlax/Snorlax.swiftdeps"
+  }
+}
