@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145D30C29FB05544B83222252A90EB6C /* Snorlax-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF80AB0144AE0AF5756E98B5F89BB4C /* Snorlax-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B38DB6B9930DA4E045C27E5AB52613D /* Pods-CocoapodsiOSWatchOSAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3375A516173352DCD677497A68F5F550 /* Pods-CocoapodsiOSWatchOSAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21741100B6A8DDAFEB432C7BBBFD52F5 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C6C6D8054B1C6E0383BA5226FBF6 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-dummy.m */; };
+		263B53D4A1B4086040F513B5F23047C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAAC3811C534A7DE1DCD1BD66F33AD /* Foundation.framework */; };
+		3B0B3DA4858316AF20A312DAD4CB72CD /* Pods-CocoapodsiOSWatchOSApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EED194053941B7A5FF359693C59039F7 /* Pods-CocoapodsiOSWatchOSApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E5A26D8936A378C6BF613E4B5682B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAAC3811C534A7DE1DCD1BD66F33AD /* Foundation.framework */; };
+		486DF8A72954A0BF146C9A1373D4F401 /* Pods-CocoapodsiOSWatchOSAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80071F6B903275A3E606900B0E667241 /* Pods-CocoapodsiOSWatchOSAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61E4D5D9C3BEA0BCD164065A04330F50 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 486F6751153DA056FE65394AF209C3B7 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B84A52E458EB5E246AEAF8A2871DFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75D93F2262D06C8560CC32F3C3A559 /* Foundation.framework */; };
+		767EC52C0AF90B5F91B3B43895E3CB5F /* Pods-CocoapodsiOSWatchOSAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E993D956B6A912B3B95CE1DDBEB76EA7 /* Pods-CocoapodsiOSWatchOSAppTests-dummy.m */; };
+		88DD649CF6249A98DBED4025E6118D3E /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 26800BDAEFEA0CD5F563FB0784FDD261 /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C8BA27D3E6E013230FB03ED2BEBDA18 /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CBDC65B2ADC839DFC36BC277F83478 /* Snorlax.swift */; };
+		8EB49056C393757A0674836C34C0E07D /* Snorlax-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E28526EC3DD728BB308D85CCA5A9382E /* Snorlax-watchOS-dummy.m */; };
+		8F5A16E876F64BFC594B2D9D829C84E9 /* Snorlax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CBDC65B2ADC839DFC36BC277F83478 /* Snorlax.swift */; };
+		A03886AFFE74880841857858039DFB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAAC3811C534A7DE1DCD1BD66F33AD /* Foundation.framework */; };
+		B27AC5E2C7FF3F64BD2060D1617C4ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75D93F2262D06C8560CC32F3C3A559 /* Foundation.framework */; };
+		C0AB044A3EF16C6284AB43B3C10E8F9A /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E33DF65654134F5AC4AD1202757B370 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D76DB07EB2AF7837F59175F13A1025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB75D93F2262D06C8560CC32F3C3A559 /* Foundation.framework */; };
+		C817D6AFA0F5D1AF81315ECE49A20759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAAC3811C534A7DE1DCD1BD66F33AD /* Foundation.framework */; };
+		D2F05D7D7F0847C6556A765D55114546 /* Snorlax-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE540D3FF9BF0068D7F3B959A7A368 /* Snorlax-iOS-dummy.m */; };
+		D3F8D3DF12AF86D7A3A01A9D01B3CC61 /* Snorlax.h in Headers */ = {isa = PBXBuildFile; fileRef = 26800BDAEFEA0CD5F563FB0784FDD261 /* Snorlax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5DFB32E3DB6A3D178524CF22CDFA867 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B178D386C3E9894CBBB589283E6447 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-dummy.m */; };
+		E2A0F2B13CCAF92618A1E4D13882CBE8 /* Pods-CocoapodsiOSWatchOSAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A979E9D7F39AB63CD11D5E64FE5EBF /* Pods-CocoapodsiOSWatchOSAppUITests-dummy.m */; };
+		F80178854024FE5709551B999CDA4A7D /* Snorlax-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DCE39F3B31DBC0279DD677D47BC2348 /* Snorlax-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1D065117E59438C3CC2031AFEBC325 /* Pods-CocoapodsiOSWatchOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B24E9CC1F6A31DCC1487E5A49A647D4 /* Pods-CocoapodsiOSWatchOSApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918D8BE04B92B1CBB144C0D911D05633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944D201B170AAE8C9754770322EFD43F;
+			remoteInfo = "Snorlax-watchOS";
+		};
+		A3C5FD90BF09A85FA23BE17CC2605E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665613E43342A77209DE08477F9D2AA7;
+			remoteInfo = "Snorlax-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DA6DBA399EE20661F72311819FEBFF /* Snorlax-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Snorlax-watchOS.xcconfig"; path = "../Snorlax-watchOS/Snorlax-watchOS.xcconfig"; sourceTree = "<group>"; };
+		0672F1156D82B8FED9456CB8E8FCDAC4 /* Pods-CocoapodsiOSWatchOSApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSApp-resources.sh"; sourceTree = "<group>"; };
+		06A979E9D7F39AB63CD11D5E64FE5EBF /* Pods-CocoapodsiOSWatchOSAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsiOSWatchOSAppUITests-dummy.m"; sourceTree = "<group>"; };
+		112311F7D26DDF494562E26C2E79F4A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141A1CBFF306277EF4DBA2EEC7C60375 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		14E24ACB00BBB60EB0350905D438ADD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168F940073899E03E0D5BEB106DA5004 /* Pods-CocoapodsiOSWatchOSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A7D5D502594D69F9178EB161F6FC979 /* Pods-CocoapodsiOSWatchOSApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoapodsiOSWatchOSApp.modulemap"; sourceTree = "<group>"; };
+		1FCF3D75C994F1735DA936AB0C89A95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2243157345009E8596BAC510D4994A2A /* Snorlax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snorlax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26800BDAEFEA0CD5F563FB0784FDD261 /* Snorlax.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Snorlax.h; path = Sources/Snorlax/Snorlax.h; sourceTree = "<group>"; };
+		2A12FE721D57D22084D9889CBE411A36 /* Pods-CocoapodsiOSWatchOSAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		2E33DF65654134F5AC4AD1202757B370 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		2EC7343E358A80F64723CCEE3BD58FEF /* Pods-CocoapodsiOSWatchOSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EFD45486DBE3DF2DCCD683732475F7C /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31492A7AF38D49B009C7534965F48C39 /* Pods_CocoapodsiOSWatchOSAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsiOSWatchOSAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3315DC0B2B082426FAD1A25EAFF9AFA0 /* Pods-CocoapodsiOSWatchOSAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsiOSWatchOSAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3375A516173352DCD677497A68F5F550 /* Pods-CocoapodsiOSWatchOSAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoapodsiOSWatchOSAppTests-umbrella.h"; sourceTree = "<group>"; };
+		3DCE39F3B31DBC0279DD677D47BC2348 /* Snorlax-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Snorlax-watchOS-umbrella.h"; path = "../Snorlax-watchOS/Snorlax-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		3DDED7F9E0936F36C216B17169276257 /* Pods-CocoapodsiOSWatchOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSApp.release.xcconfig"; sourceTree = "<group>"; };
+		3E70C6C6D8054B1C6E0383BA5226FBF6 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		409CC96D70F6570668F98A5339C56276 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		40ED2E767573C00AE06450510EAA9A2D /* Pods-CocoapodsiOSWatchOSAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSAppTests-resources.sh"; sourceTree = "<group>"; };
+		42EE540D3FF9BF0068D7F3B959A7A368 /* Snorlax-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Snorlax-iOS-dummy.m"; sourceTree = "<group>"; };
+		450696BF6846DBF75250E69CD8F9B9AB /* Pods_CocoapodsiOSWatchOSApp_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsiOSWatchOSApp_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486F6751153DA056FE65394AF209C3B7 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		4AD01B2FECD584D065C29CE5B4DB1D27 /* Pods-CocoapodsiOSWatchOSAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSAppUITests-resources.sh"; sourceTree = "<group>"; };
+		4B24E9CC1F6A31DCC1487E5A49A647D4 /* Pods-CocoapodsiOSWatchOSApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsiOSWatchOSApp-dummy.m"; sourceTree = "<group>"; };
+		4D5D35ED9CF0B08FEAAE64D603A62CD0 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		503A7AB7D6346F98E880B2B310D1BCBE /* Pods-CocoapodsiOSWatchOSApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsiOSWatchOSApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		579498ACED3CBEA3EC7D5218AD392393 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B4D4F64EBC0CFCD3B1AB8054782CC1D /* Pods-CocoapodsiOSWatchOSApp WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App.modulemap"; sourceTree = "<group>"; };
+		5DAEFDF87C37E0D984B0D69B07143387 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CBDC65B2ADC839DFC36BC277F83478 /* Snorlax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snorlax.swift; path = Sources/Snorlax/Snorlax.swift; sourceTree = "<group>"; };
+		6AE6F0D676D109FADD52D231E2CE9776 /* Pods-CocoapodsiOSWatchOSApp WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		6AF80AB0144AE0AF5756E98B5F89BB4C /* Snorlax-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snorlax-iOS-umbrella.h"; sourceTree = "<group>"; };
+		6F5ABAD3D47E7B850D0F07238B3541CF /* Pods-CocoapodsiOSWatchOSAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoapodsiOSWatchOSAppTests.modulemap"; sourceTree = "<group>"; };
+		75EAAC3811C534A7DE1DCD1BD66F33AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76DFD1380DB3B74F557E9F4B12342D31 /* Pods-CocoapodsiOSWatchOSAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsiOSWatchOSAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80071F6B903275A3E606900B0E667241 /* Pods-CocoapodsiOSWatchOSAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoapodsiOSWatchOSAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		806E57B09D78D10C4D9D7B82531F9544 /* Pods-CocoapodsiOSWatchOSAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D72A240A1F955235F45BD269094B596 /* Pods_CocoapodsiOSWatchOSAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsiOSWatchOSAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1F78C8774B6712E14170420255D433 /* Pods-CocoapodsiOSWatchOSApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsiOSWatchOSApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4B178D386C3E9894CBBB589283E6447 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		A756728B2C7817E1C9913248152DC311 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		A96F9C349C2E4EBF9434096D085E72B8 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		AC8ED94326A995D195BB6884A7E59D81 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE8E24E187BEA018BC34F04CE5BF476C /* Snorlax-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Snorlax-watchOS.modulemap"; path = "../Snorlax-watchOS/Snorlax-watchOS.modulemap"; sourceTree = "<group>"; };
+		B941D18B1441BCF8B2223C6B4242FD73 /* Pods-CocoapodsiOSWatchOSApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSApp-frameworks.sh"; sourceTree = "<group>"; };
+		B9D4D6FA36B1F9024048F7D73A0B4892 /* Pods-CocoapodsiOSWatchOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB8507AE1F5F43B19C93236BB7D11C9 /* Pods_CocoapodsiOSWatchOSApp_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsiOSWatchOSApp_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35DFB27C7656A64ECD550C918D20375 /* Snorlax-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snorlax-iOS-prefix.pch"; sourceTree = "<group>"; };
+		C6484E19EC2338B366E517D7D7871C24 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		CB75D93F2262D06C8560CC32F3C3A559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC9E10E834DB99727C30480D82EA1D5E /* Pods-CocoapodsiOSWatchOSAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D05F9346F786A4EFC7605D1182E6D944 /* Snorlax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snorlax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D545DBCC6DF4526377E9C3BCA1BD0630 /* Snorlax-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Snorlax-iOS.xcconfig"; sourceTree = "<group>"; };
+		D601E2483B80B2C8B82DDD1B36E25C80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Snorlax-watchOS/Info.plist"; sourceTree = "<group>"; };
+		D671A7A71E58AF338EA4EEDD5205827E /* Pods-CocoapodsiOSWatchOSAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsiOSWatchOSAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7B0E60D615C258309984DCC3639E05E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E84323D1A7511C8C02B01894F0AEE9 /* Snorlax-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Snorlax-iOS.modulemap"; sourceTree = "<group>"; };
+		DAE5DC043BEF185D09727DCFAD8AC3DE /* Snorlax-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Snorlax-watchOS-prefix.pch"; path = "../Snorlax-watchOS/Snorlax-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		DB0822E03C1169745722C8F2BE28D059 /* Pods-CocoapodsiOSWatchOSAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E28526EC3DD728BB308D85CCA5A9382E /* Snorlax-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Snorlax-watchOS-dummy.m"; path = "../Snorlax-watchOS/Snorlax-watchOS-dummy.m"; sourceTree = "<group>"; };
+		E40C6DCC7A6E4EC8F6E598A717FB2E81 /* Pods_CocoapodsiOSWatchOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsiOSWatchOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5954C638CADFBD216B592105B851444 /* Pods-CocoapodsiOSWatchOSAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsiOSWatchOSAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6A032AAC6D9041FE4D895AEEE939152 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		E993D956B6A912B3B95CE1DDBEB76EA7 /* Pods-CocoapodsiOSWatchOSAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsiOSWatchOSAppTests-dummy.m"; sourceTree = "<group>"; };
+		E9DC13A9E521D43A7ED3FF28AD226DD2 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		EED194053941B7A5FF359693C59039F7 /* Pods-CocoapodsiOSWatchOSApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoapodsiOSWatchOSApp-umbrella.h"; sourceTree = "<group>"; };
+		EF148B84718A6CFAF000694981441FE8 /* Pods-CocoapodsiOSWatchOSAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoapodsiOSWatchOSAppUITests.modulemap"; sourceTree = "<group>"; };
+		F2A24895BBF0C24682678C4BC115E45A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9C208F107D3FFCEA5486EB5ACD6C2A /* Pods-CocoapodsiOSWatchOSApp WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsiOSWatchOSApp WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D29A88B2B03F8B5BFA7EEB43CF27194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03886AFFE74880841857858039DFB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46380847B45CF98F42F3B6393B7ED4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B84A52E458EB5E246AEAF8A2871DFA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9644F0672FB22165599696D7BC5C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D76DB07EB2AF7837F59175F13A1025 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A56013BD75FE12F0474A1BC36541B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E5A26D8936A378C6BF613E4B5682B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2103081A32B6EBB51AAA0AC3657F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C817D6AFA0F5D1AF81315ECE49A20759 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD550D5859337B102E2DF4E056443678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AC5E2C7FF3F64BD2060D1617C4ED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF2BFE644A8E211A8EE94C5DC73A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263B53D4A1B4086040F513B5F23047C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077B11FF741BC2A1F145D89C951262C0 /* Pods-CocoapodsiOSWatchOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEFDF87C37E0D984B0D69B07143387 /* Info.plist */,
+				1A7D5D502594D69F9178EB161F6FC979 /* Pods-CocoapodsiOSWatchOSApp.modulemap */,
+				503A7AB7D6346F98E880B2B310D1BCBE /* Pods-CocoapodsiOSWatchOSApp-acknowledgements.markdown */,
+				9C1F78C8774B6712E14170420255D433 /* Pods-CocoapodsiOSWatchOSApp-acknowledgements.plist */,
+				4B24E9CC1F6A31DCC1487E5A49A647D4 /* Pods-CocoapodsiOSWatchOSApp-dummy.m */,
+				B941D18B1441BCF8B2223C6B4242FD73 /* Pods-CocoapodsiOSWatchOSApp-frameworks.sh */,
+				0672F1156D82B8FED9456CB8E8FCDAC4 /* Pods-CocoapodsiOSWatchOSApp-resources.sh */,
+				EED194053941B7A5FF359693C59039F7 /* Pods-CocoapodsiOSWatchOSApp-umbrella.h */,
+				B9D4D6FA36B1F9024048F7D73A0B4892 /* Pods-CocoapodsiOSWatchOSApp.debug.xcconfig */,
+				3DDED7F9E0936F36C216B17169276257 /* Pods-CocoapodsiOSWatchOSApp.release.xcconfig */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSApp";
+			path = "Target Support Files/Pods-CocoapodsiOSWatchOSApp";
+			sourceTree = "<group>";
+		};
+		0AB1960BCA815AE09CF32B191E4EE003 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				077B11FF741BC2A1F145D89C951262C0 /* Pods-CocoapodsiOSWatchOSApp */,
+				5BF8970565BEC397429E4518F84310E1 /* Pods-CocoapodsiOSWatchOSApp WatchKit App */,
+				F12EBD3B1DEEA81C4667D7CBA3CBF512 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension */,
+				969E7E28D840966DEB008F06EA64DD39 /* Pods-CocoapodsiOSWatchOSAppTests */,
+				281C30BCC7A027868439F2AE09542CC9 /* Pods-CocoapodsiOSWatchOSAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		281C30BCC7A027868439F2AE09542CC9 /* Pods-CocoapodsiOSWatchOSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				112311F7D26DDF494562E26C2E79F4A4 /* Info.plist */,
+				EF148B84718A6CFAF000694981441FE8 /* Pods-CocoapodsiOSWatchOSAppUITests.modulemap */,
+				E5954C638CADFBD216B592105B851444 /* Pods-CocoapodsiOSWatchOSAppUITests-acknowledgements.markdown */,
+				3315DC0B2B082426FAD1A25EAFF9AFA0 /* Pods-CocoapodsiOSWatchOSAppUITests-acknowledgements.plist */,
+				06A979E9D7F39AB63CD11D5E64FE5EBF /* Pods-CocoapodsiOSWatchOSAppUITests-dummy.m */,
+				CC9E10E834DB99727C30480D82EA1D5E /* Pods-CocoapodsiOSWatchOSAppUITests-frameworks.sh */,
+				4AD01B2FECD584D065C29CE5B4DB1D27 /* Pods-CocoapodsiOSWatchOSAppUITests-resources.sh */,
+				80071F6B903275A3E606900B0E667241 /* Pods-CocoapodsiOSWatchOSAppUITests-umbrella.h */,
+				806E57B09D78D10C4D9D7B82531F9544 /* Pods-CocoapodsiOSWatchOSAppUITests.debug.xcconfig */,
+				DB0822E03C1169745722C8F2BE28D059 /* Pods-CocoapodsiOSWatchOSAppUITests.release.xcconfig */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSAppUITests";
+			path = "Target Support Files/Pods-CocoapodsiOSWatchOSAppUITests";
+			sourceTree = "<group>";
+		};
+		2E56501765872C7AF978293284861215 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB75D93F2262D06C8560CC32F3C3A559 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		35C1E1AC8BC310875A55F8B75BE2FDB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7220061B41C7353C58C5D19DC5E8D61 /* Snorlax */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BF8970565BEC397429E4518F84310E1 /* Pods-CocoapodsiOSWatchOSApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D7B0E60D615C258309984DCC3639E05E /* Info.plist */,
+				5B4D4F64EBC0CFCD3B1AB8054782CC1D /* Pods-CocoapodsiOSWatchOSApp WatchKit App.modulemap */,
+				579498ACED3CBEA3EC7D5218AD392393 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-acknowledgements.markdown */,
+				141A1CBFF306277EF4DBA2EEC7C60375 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-acknowledgements.plist */,
+				3E70C6C6D8054B1C6E0383BA5226FBF6 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-dummy.m */,
+				4D5D35ED9CF0B08FEAAE64D603A62CD0 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-frameworks.sh */,
+				A96F9C349C2E4EBF9434096D085E72B8 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-resources.sh */,
+				486F6751153DA056FE65394AF209C3B7 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-umbrella.h */,
+				FA9C208F107D3FFCEA5486EB5ACD6C2A /* Pods-CocoapodsiOSWatchOSApp WatchKit App.debug.xcconfig */,
+				6AE6F0D676D109FADD52D231E2CE9776 /* Pods-CocoapodsiOSWatchOSApp WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSApp WatchKit App";
+			path = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				35C1E1AC8BC310875A55F8B75BE2FDB0 /* Pods */,
+				7FF96C6DCFDF385E98D50B43CF9F05BD /* Products */,
+				0AB1960BCA815AE09CF32B191E4EE003 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF96C6DCFDF385E98D50B43CF9F05BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40C6DCC7A6E4EC8F6E598A717FB2E81 /* Pods_CocoapodsiOSWatchOSApp.framework */,
+				450696BF6846DBF75250E69CD8F9B9AB /* Pods_CocoapodsiOSWatchOSApp_WatchKit_App.framework */,
+				BAB8507AE1F5F43B19C93236BB7D11C9 /* Pods_CocoapodsiOSWatchOSApp_WatchKit_Extension.framework */,
+				8D72A240A1F955235F45BD269094B596 /* Pods_CocoapodsiOSWatchOSAppTests.framework */,
+				31492A7AF38D49B009C7534965F48C39 /* Pods_CocoapodsiOSWatchOSAppUITests.framework */,
+				2243157345009E8596BAC510D4994A2A /* Snorlax.framework */,
+				D05F9346F786A4EFC7605D1182E6D944 /* Snorlax.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91108B74F31481B44070C2CEA4D90048 /* iOS */,
+				2E56501765872C7AF978293284861215 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91108B74F31481B44070C2CEA4D90048 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75EAAC3811C534A7DE1DCD1BD66F33AD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		969E7E28D840966DEB008F06EA64DD39 /* Pods-CocoapodsiOSWatchOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E24ACB00BBB60EB0350905D438ADD4 /* Info.plist */,
+				6F5ABAD3D47E7B850D0F07238B3541CF /* Pods-CocoapodsiOSWatchOSAppTests.modulemap */,
+				D671A7A71E58AF338EA4EEDD5205827E /* Pods-CocoapodsiOSWatchOSAppTests-acknowledgements.markdown */,
+				76DFD1380DB3B74F557E9F4B12342D31 /* Pods-CocoapodsiOSWatchOSAppTests-acknowledgements.plist */,
+				E993D956B6A912B3B95CE1DDBEB76EA7 /* Pods-CocoapodsiOSWatchOSAppTests-dummy.m */,
+				2A12FE721D57D22084D9889CBE411A36 /* Pods-CocoapodsiOSWatchOSAppTests-frameworks.sh */,
+				40ED2E767573C00AE06450510EAA9A2D /* Pods-CocoapodsiOSWatchOSAppTests-resources.sh */,
+				3375A516173352DCD677497A68F5F550 /* Pods-CocoapodsiOSWatchOSAppTests-umbrella.h */,
+				2EC7343E358A80F64723CCEE3BD58FEF /* Pods-CocoapodsiOSWatchOSAppTests.debug.xcconfig */,
+				168F940073899E03E0D5BEB106DA5004 /* Pods-CocoapodsiOSWatchOSAppTests.release.xcconfig */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSAppTests";
+			path = "Target Support Files/Pods-CocoapodsiOSWatchOSAppTests";
+			sourceTree = "<group>";
+		};
+		A24AD7B782329DA066D2164897E01EB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D601E2483B80B2C8B82DDD1B36E25C80 /* Info.plist */,
+				1FCF3D75C994F1735DA936AB0C89A95D /* Info.plist */,
+				D9E84323D1A7511C8C02B01894F0AEE9 /* Snorlax-iOS.modulemap */,
+				D545DBCC6DF4526377E9C3BCA1BD0630 /* Snorlax-iOS.xcconfig */,
+				42EE540D3FF9BF0068D7F3B959A7A368 /* Snorlax-iOS-dummy.m */,
+				C35DFB27C7656A64ECD550C918D20375 /* Snorlax-iOS-prefix.pch */,
+				6AF80AB0144AE0AF5756E98B5F89BB4C /* Snorlax-iOS-umbrella.h */,
+				AE8E24E187BEA018BC34F04CE5BF476C /* Snorlax-watchOS.modulemap */,
+				03DA6DBA399EE20661F72311819FEBFF /* Snorlax-watchOS.xcconfig */,
+				E28526EC3DD728BB308D85CCA5A9382E /* Snorlax-watchOS-dummy.m */,
+				DAE5DC043BEF185D09727DCFAD8AC3DE /* Snorlax-watchOS-prefix.pch */,
+				3DCE39F3B31DBC0279DD677D47BC2348 /* Snorlax-watchOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Snorlax-iOS";
+			sourceTree = "<group>";
+		};
+		C7220061B41C7353C58C5D19DC5E8D61 /* Snorlax */ = {
+			isa = PBXGroup;
+			children = (
+				26800BDAEFEA0CD5F563FB0784FDD261 /* Snorlax.h */,
+				65CBDC65B2ADC839DFC36BC277F83478 /* Snorlax.swift */,
+				A24AD7B782329DA066D2164897E01EB0 /* Support Files */,
+			);
+			path = Snorlax;
+			sourceTree = "<group>";
+		};
+		F12EBD3B1DEEA81C4667D7CBA3CBF512 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2A24895BBF0C24682678C4BC115E45A /* Info.plist */,
+				409CC96D70F6570668F98A5339C56276 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.modulemap */,
+				2EFD45486DBE3DF2DCCD683732475F7C /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-acknowledgements.markdown */,
+				AC8ED94326A995D195BB6884A7E59D81 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-acknowledgements.plist */,
+				A4B178D386C3E9894CBBB589283E6447 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-dummy.m */,
+				E6A032AAC6D9041FE4D895AEEE939152 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-frameworks.sh */,
+				E9DC13A9E521D43A7ED3FF28AD226DD2 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-resources.sh */,
+				2E33DF65654134F5AC4AD1202757B370 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-umbrella.h */,
+				C6484E19EC2338B366E517D7D7871C24 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.debug.xcconfig */,
+				A756728B2C7817E1C9913248152DC311 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension";
+			path = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		087E5889FA5A45F63B5290508D6F5396 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80178854024FE5709551B999CDA4A7D /* Snorlax-watchOS-umbrella.h in Headers */,
+				88DD649CF6249A98DBED4025E6118D3E /* Snorlax.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4EBE441B44C0AD514F5799F6DAD025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AB044A3EF16C6284AB43B3C10E8F9A /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DC94215DC5E0FA9CBE8E1D55874E1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E4D5D9C3BEA0BCD164065A04330F50 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C324F0E555145286BDAB39136D0C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145D30C29FB05544B83222252A90EB6C /* Snorlax-iOS-umbrella.h in Headers */,
+				D3F8D3DF12AF86D7A3A01A9D01B3CC61 /* Snorlax.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B254A53AF7272B5507004B996459E0A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0B3DA4858316AF20A312DAD4CB72CD /* Pods-CocoapodsiOSWatchOSApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA85F70976B36FB62FBE70022D448A08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B38DB6B9930DA4E045C27E5AB52613D /* Pods-CocoapodsiOSWatchOSAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3945AD855F1A600B2B707399C2260F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486DF8A72954A0BF146C9A1373D4F401 /* Pods-CocoapodsiOSWatchOSAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35EF026A0F7A4A84B384B4AF521E5074 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7243AAB758F20B27E85D534CDD07BBAB /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSApp WatchKit Extension" */;
+			buildPhases = (
+				CD456E3784D9E0E6658098C59CCFEFA4 /* Sources */,
+				46380847B45CF98F42F3B6393B7ED4C9 /* Frameworks */,
+				1A4EBE441B44C0AD514F5799F6DAD025 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BEDCAA2D45DD29A0ED70E898EFCC755 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension";
+			productName = "Pods-CocoapodsiOSWatchOSApp WatchKit Extension";
+			productReference = BAB8507AE1F5F43B19C93236BB7D11C9 /* Pods_CocoapodsiOSWatchOSApp_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		665613E43342A77209DE08477F9D2AA7 /* Snorlax-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC30A3DFA894A1955CC59CC789F822AD /* Build configuration list for PBXNativeTarget "Snorlax-iOS" */;
+			buildPhases = (
+				BE2B2857256780BCECBAD8079FADCC28 /* Sources */,
+				6B2103081A32B6EBB51AAA0AC3657F54 /* Frameworks */,
+				B10C324F0E555145286BDAB39136D0C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snorlax-iOS";
+			productName = "Snorlax-iOS";
+			productReference = D05F9346F786A4EFC7605D1182E6D944 /* Snorlax.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69381888F23FD4E42FE27346B2D67643 /* Pods-CocoapodsiOSWatchOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0F293603556475C51DC49527BB01D9 /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSAppTests" */;
+			buildPhases = (
+				48A796D5E653C1DB3380152BE1E1FB24 /* Sources */,
+				674A56013BD75FE12F0474A1BC36541B /* Frameworks */,
+				BA85F70976B36FB62FBE70022D448A08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocoapodsiOSWatchOSAppTests";
+			productName = "Pods-CocoapodsiOSWatchOSAppTests";
+			productReference = 8D72A240A1F955235F45BD269094B596 /* Pods_CocoapodsiOSWatchOSAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86308CB67FB23DFB7E801B9F0588F2B4 /* Pods-CocoapodsiOSWatchOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7F6DC9A3CD814C9AA254B4344CBE0A /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSAppUITests" */;
+			buildPhases = (
+				C09C23B02517BAB0854EBE6F63318839 /* Sources */,
+				F4BF2BFE644A8E211A8EE94C5DC73A07 /* Frameworks */,
+				D3945AD855F1A600B2B707399C2260F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocoapodsiOSWatchOSAppUITests";
+			productName = "Pods-CocoapodsiOSWatchOSAppUITests";
+			productReference = 31492A7AF38D49B009C7534965F48C39 /* Pods_CocoapodsiOSWatchOSAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		944D201B170AAE8C9754770322EFD43F /* Snorlax-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4AD161ED721CCB3AD8C77CC682899 /* Build configuration list for PBXNativeTarget "Snorlax-watchOS" */;
+			buildPhases = (
+				C80FE8FC81E2715517EADE7B4B192D3C /* Sources */,
+				BD550D5859337B102E2DF4E056443678 /* Frameworks */,
+				087E5889FA5A45F63B5290508D6F5396 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snorlax-watchOS";
+			productName = "Snorlax-watchOS";
+			productReference = 2243157345009E8596BAC510D4994A2A /* Snorlax.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA5BFD71EC8E9EC10AB7CAB94FF006A4 /* Pods-CocoapodsiOSWatchOSApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A7E7B29D0436EDEBAF012F254BC08A /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSApp WatchKit App" */;
+			buildPhases = (
+				E2F9FF3F7C354FD9250019071F9304A7 /* Sources */,
+				5E9644F0672FB22165599696D7BC5C0E /* Frameworks */,
+				34DC94215DC5E0FA9CBE8E1D55874E1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocoapodsiOSWatchOSApp WatchKit App";
+			productName = "Pods-CocoapodsiOSWatchOSApp WatchKit App";
+			productReference = 450696BF6846DBF75250E69CD8F9B9AB /* Pods_CocoapodsiOSWatchOSApp_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E84FF13623EA46952979A63FF9BA3E1A /* Pods-CocoapodsiOSWatchOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A784DB2098907060BB28A736D8F0FF21 /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSApp" */;
+			buildPhases = (
+				B327DB441B02750E59636F7EE5E0BA93 /* Sources */,
+				0D29A88B2B03F8B5BFA7EEB43CF27194 /* Frameworks */,
+				B254A53AF7272B5507004B996459E0A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AAA3BA4A1696ED023770F6BF499635F /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoapodsiOSWatchOSApp";
+			productName = "Pods-CocoapodsiOSWatchOSApp";
+			productReference = E40C6DCC7A6E4EC8F6E598A717FB2E81 /* Pods_CocoapodsiOSWatchOSApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7FF96C6DCFDF385E98D50B43CF9F05BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84FF13623EA46952979A63FF9BA3E1A /* Pods-CocoapodsiOSWatchOSApp */,
+				DA5BFD71EC8E9EC10AB7CAB94FF006A4 /* Pods-CocoapodsiOSWatchOSApp WatchKit App */,
+				35EF026A0F7A4A84B384B4AF521E5074 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension */,
+				69381888F23FD4E42FE27346B2D67643 /* Pods-CocoapodsiOSWatchOSAppTests */,
+				86308CB67FB23DFB7E801B9F0588F2B4 /* Pods-CocoapodsiOSWatchOSAppUITests */,
+				665613E43342A77209DE08477F9D2AA7 /* Snorlax-iOS */,
+				944D201B170AAE8C9754770322EFD43F /* Snorlax-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A796D5E653C1DB3380152BE1E1FB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EC52C0AF90B5F91B3B43895E3CB5F /* Pods-CocoapodsiOSWatchOSAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B327DB441B02750E59636F7EE5E0BA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D065117E59438C3CC2031AFEBC325 /* Pods-CocoapodsiOSWatchOSApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2B2857256780BCECBAD8079FADCC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F05D7D7F0847C6556A765D55114546 /* Snorlax-iOS-dummy.m in Sources */,
+				8C8BA27D3E6E013230FB03ED2BEBDA18 /* Snorlax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09C23B02517BAB0854EBE6F63318839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A0F2B13CCAF92618A1E4D13882CBE8 /* Pods-CocoapodsiOSWatchOSAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FE8FC81E2715517EADE7B4B192D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB49056C393757A0674836C34C0E07D /* Snorlax-watchOS-dummy.m in Sources */,
+				8F5A16E876F64BFC594B2D9D829C84E9 /* Snorlax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD456E3784D9E0E6658098C59CCFEFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DFB32E3DB6A3D178524CF22CDFA867 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F9FF3F7C354FD9250019071F9304A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21741100B6A8DDAFEB432C7BBBFD52F5 /* Pods-CocoapodsiOSWatchOSApp WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AAA3BA4A1696ED023770F6BF499635F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Snorlax-iOS";
+			target = 665613E43342A77209DE08477F9D2AA7 /* Snorlax-iOS */;
+			targetProxy = A3C5FD90BF09A85FA23BE17CC2605E7D /* PBXContainerItemProxy */;
+		};
+		7BEDCAA2D45DD29A0ED70E898EFCC755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Snorlax-watchOS";
+			target = 944D201B170AAE8C9754770322EFD43F /* Snorlax-watchOS */;
+			targetProxy = 918D8BE04B92B1CBB144C0D911D05633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0678D3266AF213A3F17EAF5423130D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D545DBCC6DF4526377E9C3BCA1BD0630 /* Snorlax-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snorlax-iOS/Snorlax-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snorlax-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snorlax-iOS/Snorlax-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Snorlax;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E84DD255D7AF9AAA77D82EADD5F75DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DA6DBA399EE20661F72311819FEBFF /* Snorlax-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snorlax-watchOS/Snorlax-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snorlax-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snorlax-watchOS/Snorlax-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Snorlax;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1BC4A42E6096D5CFE86CAFC5A5BFE85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D545DBCC6DF4526377E9C3BCA1BD0630 /* Snorlax-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snorlax-iOS/Snorlax-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snorlax-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snorlax-iOS/Snorlax-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Snorlax;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3916CC7770B3CCD5A7D17ACF4260DC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806E57B09D78D10C4D9D7B82531F9544 /* Pods-CocoapodsiOSWatchOSAppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppUITests/Pods-CocoapodsiOSWatchOSAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F46859DE599BFBD5AAB9C7995BAE42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168F940073899E03E0D5BEB106DA5004 /* Pods-CocoapodsiOSWatchOSAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppTests/Pods-CocoapodsiOSWatchOSAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FE327E649368DE863CC997C136E515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC7343E358A80F64723CCEE3BD58FEF /* Pods-CocoapodsiOSWatchOSAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppTests/Pods-CocoapodsiOSWatchOSAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50945718DE2F2EDC5395E2F7F8B4FE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE6F0D676D109FADD52D231E2CE9776 /* Pods-CocoapodsiOSWatchOSApp WatchKit App.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit App/Pods-CocoapodsiOSWatchOSApp WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSApp_WatchKit_App;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		5371B3D3B1FF63EBEB343B1574143112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		91E3554B9D2471FC78CEF95485755C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9C208F107D3FFCEA5486EB5ACD6C2A /* Pods-CocoapodsiOSWatchOSApp WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit App/Pods-CocoapodsiOSWatchOSApp WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSApp_WatchKit_App;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		A56558A7ABC1EC470FAD6ED7CEFFDF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D4D6FA36B1F9024048F7D73A0B4892 /* Pods-CocoapodsiOSWatchOSApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp/Pods-CocoapodsiOSWatchOSApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2CC84C3C8D12826BC4BCC8A2FEF29F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C711FCD24D098B3A33484D9E08FE4FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A756728B2C7817E1C9913248152DC311 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit Extension/Pods-CocoapodsiOSWatchOSApp WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSApp_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		D5E17FCE1F957FDE3B3D4E1F87197594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0822E03C1169745722C8F2BE28D059 /* Pods-CocoapodsiOSWatchOSAppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSAppUITests/Pods-CocoapodsiOSWatchOSAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E38AB4708FFE043D520FCAB77BAD3D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDED7F9E0936F36C216B17169276257 /* Pods-CocoapodsiOSWatchOSApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp/Pods-CocoapodsiOSWatchOSApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F73C3686F9A6A1A01BCB97DEA32A44C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6484E19EC2338B366E517D7D7871C24 /* Pods-CocoapodsiOSWatchOSApp WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoapodsiOSWatchOSApp WatchKit Extension/Pods-CocoapodsiOSWatchOSApp WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoapodsiOSWatchOSApp_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		FFACDA1FADEF2CE12B96EA06B464A629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DA6DBA399EE20661F72311819FEBFF /* Snorlax-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snorlax-watchOS/Snorlax-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snorlax-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snorlax-watchOS/Snorlax-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Snorlax;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC4AD161ED721CCB3AD8C77CC682899 /* Build configuration list for PBXNativeTarget "Snorlax-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E84DD255D7AF9AAA77D82EADD5F75DA /* Debug */,
+				FFACDA1FADEF2CE12B96EA06B464A629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CC84C3C8D12826BC4BCC8A2FEF29F2 /* Debug */,
+				5371B3D3B1FF63EBEB343B1574143112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7243AAB758F20B27E85D534CDD07BBAB /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73C3686F9A6A1A01BCB97DEA32A44C7 /* Debug */,
+				C711FCD24D098B3A33484D9E08FE4FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A784DB2098907060BB28A736D8F0FF21 /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56558A7ABC1EC470FAD6ED7CEFFDF14 /* Debug */,
+				E38AB4708FFE043D520FCAB77BAD3D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0F293603556475C51DC49527BB01D9 /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE327E649368DE863CC997C136E515A /* Debug */,
+				4F46859DE599BFBD5AAB9C7995BAE42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7F6DC9A3CD814C9AA254B4344CBE0A /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3916CC7770B3CCD5A7D17ACF4260DC0A /* Debug */,
+				D5E17FCE1F957FDE3B3D4E1F87197594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC30A3DFA894A1955CC59CC789F822AD /* Build configuration list for PBXNativeTarget "Snorlax-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC4A42E6096D5CFE86CAFC5A5BFE85D /* Debug */,
+				0678D3266AF213A3F17EAF5423130D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1A7E7B29D0436EDEBAF012F254BC08A /* Build configuration list for PBXNativeTarget "Pods-CocoapodsiOSWatchOSApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E3554B9D2471FC78CEF95485755C4B /* Debug */,
+				50945718DE2F2EDC5395E2F7F8B4FE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

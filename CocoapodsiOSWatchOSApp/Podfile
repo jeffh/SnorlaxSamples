@@ -1,0 +1,18 @@
+use_frameworks!
+
+target 'CocoapodsiOSWatchOSApp' do
+  pod 'Snorlax', '~> 0.1.0'
+end
+
+target 'CocoapodsiOSWatchOSAppTests' do
+end
+
+target 'CocoapodsiOSWatchOSAppUITests' do
+end
+
+target 'CocoapodsiOSWatchOSApp WatchKit App' do
+end
+
+target 'CocoapodsiOSWatchOSApp WatchKit Extension' do
+  pod 'Snorlax', '~> 0.1.0'
+end

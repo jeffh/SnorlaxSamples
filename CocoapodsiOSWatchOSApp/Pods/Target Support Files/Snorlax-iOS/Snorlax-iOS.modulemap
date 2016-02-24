@@ -1,0 +1,6 @@
+framework module Snorlax {
+  umbrella header "Snorlax-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

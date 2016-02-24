@@ -1,0 +1,12 @@
+PODS:
+  - Snorlax (0.1.0)
+
+DEPENDENCIES:
+  - Snorlax (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  Snorlax: bc3dc211bb6bca8032f3535df918113f46ffe331
+
+PODFILE CHECKSUM: e834f2740eb3c4c92d494c74f6e704e31384270e
+
+COCOAPODS: 1.0.0.beta.4
