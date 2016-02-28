@@ -1,0 +1,3 @@
+github "mxcl/OMGHTTPURLRQ" "3.1.1"
+github "mxcl/PromiseKit" "1f47fff4419955d56b70a1a20ae1902ffe30042e"
+github "jeffh/Snorlax" "v0.2.0"

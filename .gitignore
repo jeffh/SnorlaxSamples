@@ -12,5 +12,6 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
-SPMApp/Packages
+Packages
 .DS_Store
+.build

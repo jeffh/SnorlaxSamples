@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0-dev (LLVM a7663bb722, Clang 4ca3c7fa28, Swift 1c2f40e246)"
-options: "198a1f2bac46ce238fc446b239cce22c"
-build_time: [509616775, 798536000]
-inputs:
-  "/Users/jeff/workspace/SnorlaxSamples/SPMApp/Packages/Snorlax-0.1.0/Sources/Snorlax/Snorlax.swift": [509616775, 0]

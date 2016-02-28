@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -x
+
+# Bug: Swift build tries to compile tests for dependencies
+#      which will fail since it won't properly link XCTest.
+#      So we're building first to download the dependencies
+#      and then we remove the test source files before
+#      rebuilding it again.
+#
+# This is resolved once SR-820 is released in a snapshot:
+#  https://bugs.swift.org/browse/SR-820
+swift build &> /dev/null
+rm -rf Packages/Snorlax-0.2.0/Tests
+swift build
