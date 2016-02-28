@@ -13,3 +13,4 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 SPMApp/Packages
+.DS_Store
