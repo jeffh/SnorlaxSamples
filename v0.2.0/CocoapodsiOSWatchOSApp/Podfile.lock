@@ -22,23 +22,13 @@ PODS:
     - PromiseKit (~> 3.0)
 
 DEPENDENCIES:
-  - Snorlax (from `https://github.com/jeffh/Snorlax.git`, branch `master`)
-
-EXTERNAL SOURCES:
-  Snorlax:
-    :branch: :master
-    :git: https://github.com/jeffh/Snorlax.git
-
-CHECKOUT OPTIONS:
-  Snorlax:
-    :commit: 88a2c1d7e89700fe80de15dabc53645b1f3a34c9
-    :git: https://github.com/jeffh/Snorlax.git
+  - Snorlax (~> 0.2.0)
 
 SPEC CHECKSUMS:
   OMGHTTPURLRQ: 633f98ee745aeda02345935a52eec1784cddb589
   PromiseKit: ab1a380f7a30cf8cce663a2411e8b3580b10313d
   Snorlax: 73fc9ed1799e860bb921ad277ff0587fce8ba80c
 
-PODFILE CHECKSUM: ddeeef21755312e96f8ddbd06d02c22939e37423
+PODFILE CHECKSUM: 925cb9c3eb15817251df4fe39bbdb4b43857758c
 
 COCOAPODS: 1.0.0.beta.4

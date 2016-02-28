@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'CocoapodsiOSWatchOSApp' do
-  pod 'Snorlax', git: 'https://github.com/jeffh/Snorlax.git', branch: :master # '~> 0.2.0'
+  pod 'Snorlax', '~> 0.2.0'
 end
 
 target 'CocoapodsiOSWatchOSAppTests' do
@@ -14,5 +14,5 @@ target 'CocoapodsiOSWatchOSApp WatchKit App' do
 end
 
 target 'CocoapodsiOSWatchOSApp WatchKit Extension' do
-  pod 'Snorlax', git: 'https://github.com/jeffh/Snorlax.git', branch: :master #'~> 0.2.0'
+  pod 'Snorlax', '~> 0.2.0'
 end
